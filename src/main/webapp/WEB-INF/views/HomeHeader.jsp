@@ -64,7 +64,7 @@
 	</div>
 	<form class="form-inline my-2 my-lg-0">
 		<a class="btn btn-outline-success my-2 my-sm-0"
-			href="LogoutController">Logout</a>
+			href="logout">Logout</a>
 	</form>
 </nav>
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"

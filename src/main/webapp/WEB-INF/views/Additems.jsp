@@ -147,7 +147,8 @@ Current time:<input type="time" name="time">
 						.click(
 							function () {
 								let categoryid = document.getElementById("category").value;
-								let url = "http://localhost:9696/listsubcategory/"+ categoryid;
+								/* let url = "http://localhost:9696/listsubcategory/"+ categoryid; */
+								let url = "http://https://mygateism2022.herokuapp.com//listsubcategory/"+ categoryid;
 								$.get(url).done(function (data) {
 											let subcategory = $("#subcategoryid");
 											subcategory.empty();

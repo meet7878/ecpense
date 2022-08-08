@@ -1,5 +1,7 @@
 package com.Controller;
 
+import java.lang.ProcessBuilder.Redirect;
+
 import javax.servlet.http.HttpSession;
 import javax.validation.Valid;
 
@@ -42,7 +44,7 @@ public class SessionController {
 			userDao.adduser(user);
 			// model.addAttribute(user);
 			model.addAttribute("msg", "signup done");
-			return "Login";
+			return  "redirect:/login";
 
 		}
 	}
